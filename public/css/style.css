@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Shrikhand", cursive;
+}
+
+div .title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px -2px 20px 0px grey;
+  padding: 1rem;
+}
+header .logo img {
+  width: 50%;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
+  padding: 1rem;
+}
+.location i {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.8rem;
+}
+
+.discover {
+  text-align: center;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgb(241, 241, 241);
+}
+.discover .main-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.discover .second-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.discover .btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #ffffff;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0px 8px 20px 0px #b9b9b9;
+  background: linear-gradient(350deg, rgb(190, 12, 216) 62%, rgb(255, 0, 215) 100%);
+}
+.discover .btn:hover {
+  cursor: pointer;
+  background: linear-gradient(350deg, rgba(190, 12, 216, 0.8) 62%, rgba(255, 0, 215, 0.8) 100%);
+}
+
+.fonctionnement {
+  margin: 1rem;
+}
+.fonctionnement .fonctionnement-item {
+  background-color: rgb(241, 241, 241);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.fonctionnement .fonctionnement-item i {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: grey;
+}
+.fonctionnement .fonctionnement-item span {
+  font-weight: 700;
+}
+.fonctionnement .fonctionnement-item .bubble {
+  position: absolute;
+  background-color: rgb(129, 44, 203);
+  color: #ffffff;
+  margin-left: -2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.fonctionnement .fonctionnement-item:hover {
+  cursor: pointer;
+  background-color: rgba(225, 190, 255, 0.572);
+}
+.fonctionnement .fonctionnement-item:hover i {
+  color: rgb(129, 44, 203);
+}
+
+.restaurants {
+  margin: 1rem;
+}
+.restaurants .item {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px 0px #b9b9b9;
+  margin-bottom: 1rem;
+}
+.restaurants .item .img {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.restaurants .item .img img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  transition: transform 0.5 ease-out;
+}
+.restaurants .item .img img:hover {
+  transform: scale(1.2);
+}
+.restaurants .item .img .nouveau {
+  position: absolute;
+  background-color: rgb(192, 250, 200);
+  color: rgb(0, 104, 14);
+  padding: 0.5rem;
+  margin: 1rem 1rem 0 0;
+  font-weight: 700;
+}
+.restaurants .item .content {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.restaurants .item .content .content-title {
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.restaurants .item .content .heart a.not-filled {
+  position: absolute;
+}
+.restaurants .item .content .heart a.not-filled:hover {
+  opacity: 0;
+}
+.restaurants .item .content .heart a.filled {
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.restaurants .item .content .heart a.filled:hover {
+  opacity: 1;
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+  color: #ffffff;
+  padding: 2rem;
+}
+footer .content {
+  display: flex;
+  flex-direction: column;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-bottom: 0.5rem;
+}
+footer img {
+  width: 150px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  margin-bottom: 1rem;
+}
+footer .icon-link {
+  display: flex;
+  flex-direction: column;
+}
+footer .icon-link i {
+  margin-right: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
