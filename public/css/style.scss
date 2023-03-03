@@ -11,6 +11,24 @@ body{
 
 
 // Accueil
+// Loader
+.loader{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    animation: loader 0.1s;
+    .loader-item {
+        width: 48px;
+        height: 48px;
+        border: 5px solid #FFF;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+    }
+}
 // Logo
 @media screen and (max-width: 767px) {
     header{
