@@ -49,19 +49,54 @@ main{
     }
     .plates{
         .plate{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             box-shadow: 0px 8px 20px 0px #d0d0d0;
             background-color: #ffffff;
             border-radius: 20px;
             padding: 1rem;
             margin-bottom: 1rem;
-            .title-plate{
-                font-weight: 700;
-            }
-            .detail-price{
-                display: flex;
-                justify-content: space-between;
-                .price{
+            
+            cursor: pointer;
+            .food{
+                width: 100%;
+                .title-plate{
                     font-weight: 700;
+                }
+                .detail-price{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-right: 1rem;
+                    .price{
+                        font-weight: 700;
+                    }
+                }
+            }
+            .box{
+                opacity: 0;
+                i{
+                    color: #ffffff;
+                }
+            }
+            &:hover span{
+                text-overflow: ellipsis;
+            }
+            &:hover .box{
+                animation: slide 1s ease;
+                background-color: #99E2D0;
+                width: 70px;
+                height: 71px;
+                margin-top: -15px;
+                margin-bottom: -15px;
+                margin-right: -17px;
+                border-radius: 0px 15px 15px 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 1;
+                i{
+                    animation: rotation 1s ease;
                 }
             }
         }
