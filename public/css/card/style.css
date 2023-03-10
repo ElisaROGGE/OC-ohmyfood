@@ -46,7 +46,7 @@ main .card-title .border {
   height: 100%;
   margin-bottom: 1rem;
   width: 50px;
-  border-bottom: 3px solid rgb(54, 238, 158);
+  border-bottom: 3px solid #99E2D0;
 }
 main .plates .plate {
   box-shadow: 0px 8px 20px 0px #d0d0d0;
