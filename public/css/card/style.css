@@ -65,6 +65,18 @@ main .plates .plate .detail-price {
 main .plates .plate .detail-price .price {
   font-weight: 700;
 }
+main .plates .delay-0 {
+  animation: fadeIn 1s ease;
+  animation-delay: 500ms;
+}
+main .plates .delay-1 {
+  animation: fadeIn 1s ease;
+  animation-delay: 800ms;
+}
+main .plates .delay-2 {
+  animation: fadeIn 1s ease;
+  animation-delay: 1s;
+}
 main .button {
   display: flex;
   justify-content: center;

@@ -65,6 +65,18 @@ main{
                 }
             }
         }
+        .delay-0{
+            animation: fadeIn 1s ease; 
+            animation-delay: 500ms;
+         }
+         .delay-1{
+            animation: fadeIn 1s ease; 
+            animation-delay: 800ms;
+         }
+         .delay-2{
+            animation: fadeIn 1s ease; 
+            animation-delay: 1s;
+         }
     }
     .button{
         display: flex;
