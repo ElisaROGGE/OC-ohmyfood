@@ -57,6 +57,7 @@ main .plates .plate {
   border-radius: 20px;
   padding: 1rem;
   margin-bottom: 1rem;
+  max-height: 75px;
   cursor: pointer;
 }
 main .plates .plate .food {
