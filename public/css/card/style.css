@@ -125,4 +125,23 @@ main .button {
 main .button .btn {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  header .logo img {
+    width: 15%;
+  }
+  main {
+    padding: 2rem 7rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  main .title-heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .title-heart h2 {
+    margin-right: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
