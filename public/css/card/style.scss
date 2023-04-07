@@ -106,18 +106,14 @@ main{
                 }
             }
         }
-        .delay-0{
-            animation: fadeIn 1s ease; 
-            animation-delay: 500ms;
-         }
-         .delay-1{
-            animation: fadeIn 1s ease; 
-            animation-delay: 800ms;
-         }
-         .delay-2{
-            animation: fadeIn 1s ease; 
-            animation-delay: 1s;
-         }
+        @for $i from 0 through 9 {
+            .delay-#{$i} {
+                opacity: 0;
+                animation: fadeIn 1s ease; 
+                animation-delay: #{0.2 + $i * 0.2}s;
+                animation-fill-mode: forwards;
+            }
+        }
     }
     .button{
         display: flex;
