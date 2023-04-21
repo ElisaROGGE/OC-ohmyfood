@@ -24,12 +24,4 @@
     opacity: 1;
     transform: translateY(0px);
   }
-}
-@keyframes slide {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    margin-left: 0%;
-  }
 }/*# sourceMappingURL=animation.css.map */
