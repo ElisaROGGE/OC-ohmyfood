@@ -25,6 +25,7 @@ a{
     }
 }
 .heart{
+    cursor: pointer;
     span.not-filled{
         position: absolute;
         &:hover{
